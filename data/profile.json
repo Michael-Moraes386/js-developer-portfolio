@@ -1,78 +1,95 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "name": "Michael F Moraes Silva",
+  "photo": "https://avatars.githubusercontent.com/u/189237344?v=4",
+  "job": "Estudante",
+  "location": "Rio de Janeiro - RJ",
+  "phone": "(21) 99620-3527",
+  "email": "MichaelfmSilva@gmail.com",
+  "linkedin":"https://www.linkedin.com/in/michael-moraes/",
+  "github":"https://github.com/Michael-Moraes386",
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "name": "JavaSript",
+        "logo": "https://github.com/Michael-Moraes386/js-developer-portfolio/blob/main/data/imgs/js.png?raw=true"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "name": "CSS",
+        "logo": "https://github.com/Michael-Moraes386/js-developer-portfolio/blob/main/data/imgs/css.png?raw=true"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "HTML",
+        "logo": "https://github.com/Michael-Moraes386/js-developer-portfolio/blob/main/data/imgs/html.png?raw=true"
       },
       {
-        "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        "name": "VsCode",
+        "logo": "https://github.com/Michael-Moraes386/js-developer-portfolio/blob/main/data/imgs/vscode.png?raw=true"
       },
       {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "name": "GitHub",
+        "logo": "https://github.com/Michael-Moraes386/js-developer-portfolio/blob/main/data/imgs/github.png?raw=true"
       },
       {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "name": "Python",
+        "logo": "https://github.com/Michael-Moraes386/js-developer-portfolio/blob/main/data/imgs/python.png?raw=true"
       }
     ],
     "softSkills": [
-      "Empatia",
-      "Liderança",
+      "Facilidade de Aprendizado",
       "Trabalho em equipe",
       "Flexibilidade",
       "Organização"
     ]
   },
+   "education": [
+    {
+      "title": "Análise e Desenvolvimento de Sistemas, Anhaguera",
+      "period": "Janeiro 2024 - Julho 2026",
+      "type":"Graduação"
+    },
+    {
+      "title": "Formação Lógica de Programação, Dio",
+      "period": "Dezembro 2024 - Janeiro 2025",
+      "type": "Curso 41hrs"
+    },
+    {
+      "title": "Formação JavaScript Web Developer, Dio",
+      "period": "Janeiro 2024 - Fevereiro 2024",
+      "type": "Curso 39hrs"
+    },
+    {
+    "title": "Jornada da Inteligência artifical, Hashtag",
+      "period": "Julho 2024",
+      "type": "Curso 8hrs"
+  },
+  {
+    "title": "Programação com Arduino - Da Eletrônica Básica à Automação com Componentes",
+      "period": "Agosto 2024 - Setembro 2024",
+      "type": "Curso 50hrs"
+  }
+
+  ],
   "languages": [
     "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Inglês (Básico)"
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
-      "github": true
-    },
-    {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Criação de uma Pokedex",
+      "url": "https://michael-moraes386.github.io/js-developer-pokedex/",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "Auxiliar de Almoxarifado / DIME Distibuidora",
+      "period": "Janeiro 2024 - Outubro 2024",
+      "description": "Responsável pelo envio e recebimento de materiais, organização e separação de mercadorias, além de auxiliar na verificação e embalagem de produtos prontos. Realiza a conferência dos itens recebidos, registra dados em planilhas e verifica o estoque, anotando produtos em falta ou sem saída."
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Soldade Eletricista / Exército Brasileiro",
+      "period": "Ago/2018 - Jul/2019",
+      "description": "Atua em serviços de reparos e manobras em alta, média e baixa tensão, além de operar em subestações, grupos geradores e realizar troca de fusíveis em chaves fusíveis. Também realiza manutenção e medição de energia para moradores locais, além de fazer o fechamento e montagem de quadros de energia."
     }
   ]
 }
