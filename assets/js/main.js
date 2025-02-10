@@ -20,6 +20,15 @@ function updateProfileInfo(profileData) {
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
     email.href = `mailto:${profileData.email}`
+
+    const linkedin = document.getElementById('profile.linkedin');
+  linkedin.innerText = "Linkedin";
+  linkedin.href= `${profileData.linkedin}`;
+  linkedin.setAttribute("target", "_blank");
+  const github = document.getElementById('profile.github');
+  github.innerText = "GitHub";
+  github.href= `${profileData.github}`;
+  github.setAttribute("target", "_blank");
 }
 
 function updateSoftSkills(profileData) {
@@ -49,6 +58,21 @@ function updatePortfolio(profileData) {
     }).join('')
 }
 
+function updateEducation(profileData){
+  const education = document.getElementById("profile.education");
+  education.innerHTML = profileData.education.map((education)=>{
+    return `
+    <li>
+   <h3 class="title">${education.title} </h3>
+ <p class="period">${education.period}</p>
+ <p>${education.type}</p>
+ </li>  
+    `
+    ;
+  })
+  .join("");
+}
+
 function updateProfessionalExperience(profileData) {
     const professionalExperience = document.getElementById('profile.professionalExperience')
     professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
@@ -67,6 +91,7 @@ function updateProfessionalExperience(profileData) {
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
+    updateEducation(profileData)
     updateLanguages(profileData)
     updatePortfolio(profileData)
     updateProfessionalExperience(profileData)
