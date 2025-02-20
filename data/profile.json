@@ -54,8 +54,13 @@
     },
     {
       "title": "Formação JavaScript Web Developer, Dio",
-      "period": "Janeiro 2024 - Fevereiro 2024",
+      "period": "Janeiro 2024 - Fevereiro 2025",
       "type": "Curso 39hrs"
+    },
+    {
+      "title": "Formação Fundamentos de Inteligência Artificial, Dio",
+      "period": "Fevereiro 2025",
+      "type": "Curso 10hrs"
     },
     {
     "title": "Jornada da Inteligência artificial, Hashtag",
@@ -63,10 +68,10 @@
       "type": "Curso 8hrs"
   },
   {
-    "title": "Programação com Arduino - Da Eletrônica Básica à Automação com Componentes",
+    "title": "Programação com Arduino - Da Eletrônica Básica à Automação com Componentes, Faculdade Vincit",
       "period": "Agosto 2024 - Setembro 2024",
       "type": "Curso 50hrs"
-  }
+  }  
 
   ],
   "languages": [
