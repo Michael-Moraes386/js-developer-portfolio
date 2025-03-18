@@ -63,6 +63,11 @@
       "type": "Curso 10hrs"
     },
     {
+      "title": "Formação HTML Web Developer",
+      "period": "Fevereiro 2025 - Março 2025",
+      "type": "Curso 21hrs"
+    },
+    {
     "title": "Jornada da Inteligência artificial, Hashtag",
       "period": "Julho 2024",
       "type": "Curso 8hrs"
@@ -87,6 +92,11 @@
     {
       "name": "Primeiros passos com HTML",
       "url": "https://michael-moraes386.github.io/HTML/",
+      "github": true
+    },
+    {
+      "name": "Projeto Recriando Wikipedia, Inspirado No anime Baki Hanma",
+      "url": "https://michael-moraes386.github.io/trilha-html-modulo-3/",
       "github": true
     }
   ],
